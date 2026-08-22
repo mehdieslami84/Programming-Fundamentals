@@ -9,7 +9,7 @@ public class P003 {
         System.out.print("pls enter Number : ");
         
         int n = input.nextInt(); //Enter n
-        int r=0; // remain
+        
         System.out.println(n/50 +"ta  50 toman + " + (n%50)/10 + "ta  10 toman + " + ((n%50)%10)/5 +"ta  5 toman + " + (((n%50)%10)%5)/1 + "ta  1 toman + ");
         
     }//end of main
