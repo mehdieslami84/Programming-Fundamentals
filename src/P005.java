@@ -1,4 +1,4 @@
-// Write a program that takes a number and prints its absolute value without using an if statement.
+// Write a program that takes a number and prints its min value without using an if statement.
 
 import java.util.Scanner;
 
