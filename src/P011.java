@@ -1,4 +1,4 @@
-
+// Write a program that prints the numbers from 1 to n.
 import java.util.Scanner;
 
 
