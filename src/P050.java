@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class P045 {
+public class P050 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -10,14 +10,16 @@ public class P045 {
         System.out.print("Please Enter Number : ");
         int n = input.nextInt();
 
-        int count = 0;
+        int mul = 1;
 
         while (n > 0) {
+            if ((n % 10) % 2 != 0) {
+                mul *= n % 10;
+            }
 
-            count++;
             n /= 10;
         }
 
-        System.out.println("count of digits:  : " + count);
+        System.out.println("mul of odd digits:  : " + mul);
     }//end of main
 }//end of class

@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class P045 {
+public class P046 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -13,11 +13,13 @@ public class P045 {
         int count = 0;
 
         while (n > 0) {
+            if ((n % 10) % 2 == 0) {
+                count++;
+            }
 
-            count++;
             n /= 10;
         }
 
-        System.out.println("count of digits:  : " + count);
+        System.out.println("count even of digits:  : " + count);
     }//end of main
 }//end of class
