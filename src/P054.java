@@ -13,7 +13,7 @@ public class P054 {
 
         while (n > 0) {
 
-            temp *= 10 + n % 10;
+            temp = temp * 10 + n % 10;
 
             n /= 10;
         }
