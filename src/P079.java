@@ -6,7 +6,7 @@ public class P079 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int c = 0;
-        for (int x = 1; x <= 3; x++) {
+        for (int x = 1; x <= 100; x++) {
             System.out.print("Please Enter Number " + x + " : ");
             int n = input.nextInt();
             int sum = 0;
