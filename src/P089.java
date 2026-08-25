@@ -1,3 +1,4 @@
+// Write a program that takes a base-2 number and converts it directly to base 16
 
 import java.util.Scanner;
 
