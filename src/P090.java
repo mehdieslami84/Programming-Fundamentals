@@ -1,3 +1,5 @@
+//Write a program that, for a given equation, takes x1 and x2 and computes and prints the value of the
+// definite integral from x1 to x2 with precision 10^-7. (Methods: rectangular, trapezoidal, Simpson's,)
 
 import java.util.Scanner;
 
