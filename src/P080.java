@@ -1,3 +1,5 @@
+// Write a program that takes 100 numbers and prints how many of them are both perfect numbers and
+// divisible by 2.
 
 import java.util.Scanner;
 
