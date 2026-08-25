@@ -1,3 +1,4 @@
+// Write a program that takes a base-8 number and prints its equivalent in base 10
 
 import java.util.Scanner;
 
