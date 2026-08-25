@@ -16,7 +16,6 @@ public class P089 {
             p *= 2;
             n /= 10;
         }
-        System.out.println(s);
         while (b > 0) {
             long r = b % 16;
 
@@ -28,6 +27,6 @@ public class P089 {
 
             b = b / 16;
         }
-        System.out.println(s);
+        System.out.println("Hex : " + s);
     }//end of main
 }//end of class
