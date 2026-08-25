@@ -1,3 +1,4 @@
+// Write a program that takes a number and prints its equivalent in base 16
 
 import java.util.Scanner;
 
