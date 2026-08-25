@@ -1,3 +1,4 @@
+//  Write a program that takes a number and removes its zeros.
 
 import java.util.Scanner;
 
