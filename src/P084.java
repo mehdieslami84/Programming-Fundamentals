@@ -1,3 +1,4 @@
+// Write a program that takes two base-8 numbers, computes and prints their sum and product.
 
 import java.util.Scanner;
 
