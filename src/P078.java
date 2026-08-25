@@ -1,3 +1,4 @@
+// Write a program that prints the perfect numbers less than 1000.
 
 import java.util.Scanner;
 
