@@ -1,3 +1,4 @@
+// Write a program that takes a base-2 number and converts it to base 8
 
 import java.util.Scanner;
 
