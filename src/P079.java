@@ -1,3 +1,4 @@
+// Write a program that takes 100 numbers and prints how many of them are perfect numbers
 
 import java.util.Scanner;
 
