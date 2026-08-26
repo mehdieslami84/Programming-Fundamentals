@@ -34,7 +34,7 @@ public class P125 {
 
             }
         }
-        System.out.print("count of more than avg and in fibonachi :  " + c);
+        System.out.print("count of more than avg and in prime :  " + c);
 
     }
 }
