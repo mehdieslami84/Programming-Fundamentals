@@ -1,3 +1,5 @@
+// Write a program that takes 20 numbers and prints the numbers that are greater than the average of the 20
+// entered numbers.
 
 import java.util.Scanner;
 
