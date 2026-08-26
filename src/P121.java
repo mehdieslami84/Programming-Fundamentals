@@ -9,7 +9,7 @@ public class P121 {
 
         int A[] = new int[5];
         for (int x = 0; x < 5; x++) {
-            System.out.print("Enter Number " + x + " : ");
+            System.out.print("Enter Number " + (x + 1) + " : ");
             A[x] = input.nextInt();
         }
         for (int x = 4; x >= 0; x--) {
