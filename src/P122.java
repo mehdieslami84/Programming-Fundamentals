@@ -1,7 +1,7 @@
+// Write a program that takes 20 numbers and prints them from last to first.
 
 import java.util.Scanner;
 
-// Write a program that takes 5 numbers and prints them from last to first.
 public class P122 {
 
     public static void main(String[] args) {
