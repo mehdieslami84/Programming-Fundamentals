@@ -1,5 +1,5 @@
 // Write a program that takes 20 numbers and prints the numbers that are prime and greater than the
-// average.
+// average..
 
 import java.util.Scanner;
 
