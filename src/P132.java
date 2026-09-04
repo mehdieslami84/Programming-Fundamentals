@@ -11,33 +11,34 @@ public class P132 {
 
         int A[] = new int[n];
 
-        System.out.println("Enter Array : ");
-        for (int i = 0; i < n; i++) {
-            A[i] = input.nextInt();
+        System.out.print("Enter Array : ");
+        for (int x = 0; x < n; x++) {
+            A[x] = input.nextInt();
+            System.out.print("  ");
         }
 
-        System.out.print("Enter m : ");
+        System.out.print("Enter M : ");
         int m = input.nextInt();
 
         int size = n;
 
-        for (int i = 0; i < size; i++) {
+        for (int x = 0; x < size; x++) {
 
-            if (A[i] == m) {
+            if (A[x] == m) {
 
-                for (int j = i; j < size - 1; j++) {
-                    A[j] = A[j + 1];
+                for (int y = x; y < size - 1; y++) {
+                    A[y] = A[y + 1];
                 }
 
                 size--;
-                i--;
+                x--;
             }
         }
 
-        System.out.println("Array after deleting " + m + " :");
-
-        for (int i = 0; i < size; i++) {
-            System.out.print(A[i] + " ");
+        System.out.println("after delete");
+        for (int x = 0; x < size; x++) {
+            System.out.print(A[x] + "  ");
         }
-    }
-}
+
+    }//end of main
+}//end of class
