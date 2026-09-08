@@ -12,8 +12,8 @@ public class P133 {
         int A[] = new int[n];
 
         System.out.println("Enter Array : ");
-        for (int i = 0; i < n; i++) {
-            A[i] = input.nextInt();
+        for (int x = 0; x < n; x++) {
+            A[x] = input.nextInt();
         }
 
         System.out.print("Enter p1 : ");
@@ -24,23 +24,26 @@ public class P133 {
 
         int size = n;
 
-        for (int i = 0; i < size; i++) {
+        for (int x = 0; x < size; x++) {
 
-            if (A[i] >= p1 && A[i] <= p2) {
+            if (A[x] > p1 && A[x] < p2) {
 
-                for (int j = i; j < size - 1; j++) {
-                    A[j] = A[j + 1];
+                for (int y = x; y < size - 1; y++) {
+                    A[y] = A[y + 1];
                 }
 
                 size--;
-                i--;
+                x--;
             }
         }
 
-        System.out.println("Array after deleting numbers between " + p1 + " and " + p2 + " :");
+        System.out.println("Array after deletion : ");
 
-        for (int i = 0; i < size; i++) {
-            System.out.print(A[i] + " ");
+        for (int x = 0; x < size; x++) {
+            System.out.print(A[x] + "  ");
         }
-    }
-}
+
+        input.close();
+
+    }//end of main
+}//end of class
