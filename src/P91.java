@@ -5,10 +5,10 @@ public class P91 {
 
         double s = 0;
 
-        double sum = 1;
         for (double a = 1; a < 5; a += 0.001) {
 
             double p = 1;
+            double sum = 1;
 
             int A = -1;
             int x = 3;
@@ -27,6 +27,5 @@ public class P91 {
         }
 
         System.out.println(s);
-        System.out.println(sum);
     }
 }
