@@ -1,0 +1,40 @@
+
+import java.util.Scanner;
+
+public class P096 {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter n:");
+        int n = input.nextInt();
+
+        for (int i = 0; i < n; i++) {
+
+            for (int k = 0; k <= i; k++) {
+
+                int q1 = 1;
+                for (int x = 1; x <= i; x++) {
+                    q1 *= x;
+                }
+
+                int q2 = 1;
+                for (int x = 1; x <= k; x++) {
+                    q2 *= x;
+                }
+
+                int q3 = 1;
+                for (int x = 1; x <= i - k; x++) {
+                    q3 *= x;
+                }
+
+                int r = q1 / (q2 * q3);
+
+                System.out.print(r + " ");
+            }
+
+            System.out.println();
+        }
+    }
+}
