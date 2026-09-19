@@ -1,4 +1,4 @@
-// Write a program that prints the even of divisors of a given number.
+// Write a program that prints the even of divisors of a given number..
 
 import java.util.Scanner;
 
